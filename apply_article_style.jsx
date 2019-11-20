@@ -190,7 +190,7 @@
 
 				if (mode == 'all') {
 					var stylebase = stylename.split(/[ _-]/);
-					if (stylebase.length > 2) {
+					if (stylebase.length >= 2) {
 						stylebase = stylename.substr(0,9);
 					}
 					else {
